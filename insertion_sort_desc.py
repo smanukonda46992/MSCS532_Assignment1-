@@ -1,9 +1,5 @@
 def sort_descending(numbers):
-    """
-    Sorts the given list in monotonically decreasing order
-    using a modified insertion sort approach.
-    """
-
+    
     # Start from the second element since the first element
     # by itself is already considered sorted
     for current_index in range(1, len(numbers)):
